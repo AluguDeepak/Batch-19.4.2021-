@@ -1,0 +1,12 @@
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\bin\Debug\HandsOnBasics.exe.config
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\bin\Debug\HandsOnBasics.exe
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\bin\Debug\HandsOnBasics.pdb
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\obj\Debug\HandsOnBasics.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\obj\Debug\HandsOnBasics.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\obj\Debug\HandsOnBasics.exe
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\obj\Debug\HandsOnBasics.pdb
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\bin\Debug\MathLibrary.dll
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\bin\Debug\MathLibrary.pdb
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\obj\Debug\HandsOnBasics.csproj.CopyComplete
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\bin\Debug\TempLib.dll
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\HandsOnBasics\bin\Debug\TempLib.pdb

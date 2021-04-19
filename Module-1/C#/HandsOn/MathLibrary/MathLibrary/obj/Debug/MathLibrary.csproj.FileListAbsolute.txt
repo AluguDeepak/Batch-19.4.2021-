@@ -1,0 +1,6 @@
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\MathLibrary\MathLibrary\bin\Debug\MathLibrary.dll
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\MathLibrary\MathLibrary\bin\Debug\MathLibrary.pdb
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\MathLibrary\MathLibrary\obj\Debug\MathLibrary.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\MathLibrary\MathLibrary\obj\Debug\MathLibrary.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\MathLibrary\MathLibrary\obj\Debug\MathLibrary.dll
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\MathLibrary\MathLibrary\obj\Debug\MathLibrary.pdb

@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnClassesAndObjects\HandsOnClassesAndObjects\bin\Debug\HandsOnClassesAndObjects.exe.config
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnClassesAndObjects\HandsOnClassesAndObjects\bin\Debug\HandsOnClassesAndObjects.exe
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnClassesAndObjects\HandsOnClassesAndObjects\bin\Debug\HandsOnClassesAndObjects.pdb
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnClassesAndObjects\HandsOnClassesAndObjects\obj\Debug\HandsOnClassesAndObjects.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnClassesAndObjects\HandsOnClassesAndObjects\obj\Debug\HandsOnClassesAndObjects.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnClassesAndObjects\HandsOnClassesAndObjects\obj\Debug\HandsOnClassesAndObjects.exe
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnClassesAndObjects\HandsOnClassesAndObjects\obj\Debug\HandsOnClassesAndObjects.pdb

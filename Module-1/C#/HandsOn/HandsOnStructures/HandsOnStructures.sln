@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnStructures", "HandsOnStructures\HandsOnStructures.csproj", "{7019E223-76F1-4942-8547-6DE3B646D944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment", "Assignment\Assignment.csproj", "{87CAEEBD-1161-4E9E-AA2C-F4C2566F9703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7019E223-76F1-4942-8547-6DE3B646D944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7019E223-76F1-4942-8547-6DE3B646D944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7019E223-76F1-4942-8547-6DE3B646D944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7019E223-76F1-4942-8547-6DE3B646D944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CAEEBD-1161-4E9E-AA2C-F4C2566F9703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CAEEBD-1161-4E9E-AA2C-F4C2566F9703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CAEEBD-1161-4E9E-AA2C-F4C2566F9703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CAEEBD-1161-4E9E-AA2C-F4C2566F9703}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E1B6F72-E499-42FB-8D1F-A847E3E977C2}
+	EndGlobalSection
+EndGlobal

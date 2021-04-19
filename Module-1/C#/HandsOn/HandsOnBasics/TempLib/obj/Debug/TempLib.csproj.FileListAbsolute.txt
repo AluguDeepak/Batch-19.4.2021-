@@ -1,0 +1,5 @@
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\TempLib\bin\Debug\TempLib.dll
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\TempLib\bin\Debug\TempLib.pdb
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\TempLib\obj\Debug\TempLib.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\TempLib\obj\Debug\TempLib.dll
+D:\Training(4.19.2021)\Module-1\C#\HandsOn\HandsOnBasics\TempLib\obj\Debug\TempLib.pdb
