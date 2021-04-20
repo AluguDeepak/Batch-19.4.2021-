@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnClassTypes\HandsOnClassTypes\bin\Debug\HandsOnClassTypes.exe.config
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnClassTypes\HandsOnClassTypes\bin\Debug\HandsOnClassTypes.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnClassTypes\HandsOnClassTypes\bin\Debug\HandsOnClassTypes.pdb
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnClassTypes\HandsOnClassTypes\obj\Debug\HandsOnClassTypes.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnClassTypes\HandsOnClassTypes\obj\Debug\HandsOnClassTypes.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnClassTypes\HandsOnClassTypes\obj\Debug\HandsOnClassTypes.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnClassTypes\HandsOnClassTypes\obj\Debug\HandsOnClassTypes.pdb
