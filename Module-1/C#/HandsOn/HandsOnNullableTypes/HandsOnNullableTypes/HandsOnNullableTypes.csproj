@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0A36BDFC-ECAE-406B-938C-B76DBC9AA766}</ProjectGuid>
+    <ProjectGuid>{31F471F4-52D8-41EA-A02B-1E1A55A73440}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HandsOnClassTypes</RootNamespace>
-    <AssemblyName>HandsOnClassTypes</AssemblyName>
+    <RootNamespace>HandsOnNullableTypes</RootNamespace>
+    <AssemblyName>HandsOnNullableTypes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>HandsOnClassTypes.Demo4</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,18 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class2.cs" />
-    <Compile Include="Class3.cs" />
-    <Compile Include="Demo1.cs" />
-    <Compile Include="Demo2.cs" />
-    <Compile Include="Demo3.cs" />
-    <Compile Include="Demo4.cs" />
-    <Compile Include="Demo5.cs" />
-    <Compile Include="Demo6.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

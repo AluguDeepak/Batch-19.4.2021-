@@ -10,6 +10,7 @@ namespace HandsOnClassTypes
     abstract class Shape
     {
         public abstract void Area(); //abstract function
+        //public abstract void Area(double r);
         public void Type() //not abstract function/method
         {
             Console.WriteLine("I am a 2D Shape.");

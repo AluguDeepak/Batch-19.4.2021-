@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace HandsOnClassTypes
 {
-    class Class1
+    partial class Employee
     {
+        public void AddEmployee()
+        {
+
+        }
+        public void GetEmployee()
+        {
+
+        }
     }
 }
