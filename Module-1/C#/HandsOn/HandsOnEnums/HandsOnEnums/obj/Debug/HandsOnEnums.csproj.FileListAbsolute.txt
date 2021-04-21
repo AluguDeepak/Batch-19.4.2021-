@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnEnums\HandsOnEnums\bin\Debug\HandsOnEnums.exe.config
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnEnums\HandsOnEnums\bin\Debug\HandsOnEnums.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnEnums\HandsOnEnums\bin\Debug\HandsOnEnums.pdb
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnEnums\HandsOnEnums\obj\Debug\HandsOnEnums.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnEnums\HandsOnEnums\obj\Debug\HandsOnEnums.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnEnums\HandsOnEnums\obj\Debug\HandsOnEnums.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnEnums\HandsOnEnums\obj\Debug\HandsOnEnums.pdb
