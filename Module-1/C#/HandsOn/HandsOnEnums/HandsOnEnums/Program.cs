@@ -24,10 +24,14 @@ namespace HandsOnEnums
         {
             Electronics=2,Food=5,Fashion=9,Automotive=10
         };
+        Categories categories1;
         public Categories Categorie
         {
-            get;
-            set;
+            get { return categories1; }
+            set
+            {
+                categories1 = value;
+            }
         }
         
         static void Main(string[] args)
@@ -46,6 +50,7 @@ namespace HandsOnEnums
             Engine Start = Engine.Start;
             Console.WriteLine(Start);
             Console.WriteLine((int)Start);
+          
         }
     }
 }

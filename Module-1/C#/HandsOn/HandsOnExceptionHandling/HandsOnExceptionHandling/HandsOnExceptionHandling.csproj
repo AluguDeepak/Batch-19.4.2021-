@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HandsOnExceptionHandling.Demo4</StartupObject>
+    <StartupObject>HandsOnExceptionHandling.Demo5</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include="Demo2.cs" />
     <Compile Include="Demo3.cs" />
     <Compile Include="Demo4.cs" />
+    <Compile Include="Demo5.cs" />
+    <Compile Include="Demo6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
