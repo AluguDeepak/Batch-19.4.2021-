@@ -8,6 +8,7 @@ namespace HandsOnNullableTypes
 {
     class Program
     {
+        public int? EmpId { get; set; }
         public static void AddProduct(Product product)
         {
             //Add Product details to db table
@@ -16,6 +17,7 @@ namespace HandsOnNullableTypes
         {
             Nullable<int> Price = null;
             int? i = null;
+
             double? d = null;
             //Assing nullable type value to non nullable type
             int k = i??0;

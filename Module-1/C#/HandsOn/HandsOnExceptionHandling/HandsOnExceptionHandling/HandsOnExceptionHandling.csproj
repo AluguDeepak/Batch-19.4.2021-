@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F1097DC-7684-485E-968C-61303A05F2ED}</ProjectGuid>
+    <ProjectGuid>{C270EF46-E9AC-45CF-BA87-D41DAAA3E093}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HandsOnInterfaces</RootNamespace>
-    <AssemblyName>HandsOnInterfaces</AssemblyName>
+    <RootNamespace>HandsOnExceptionHandling</RootNamespace>
+    <AssemblyName>HandsOnExceptionHandling</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>HandsOnExceptionHandling.Demo4</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,13 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Demo1.cs" />
     <Compile Include="Demo2.cs" />
     <Compile Include="Demo3.cs" />
     <Compile Include="Demo4.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="IEmployeeService.cs" />
-    <Compile Include="Interface1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

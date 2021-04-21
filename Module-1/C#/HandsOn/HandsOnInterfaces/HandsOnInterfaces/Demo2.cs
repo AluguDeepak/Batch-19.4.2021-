@@ -6,6 +6,19 @@ using System.Threading.Tasks;
 
 namespace HandsOnInterfaces
 {
+    interface IA
+    {
+        void M();
+    }
+    interface IB:IA
+    {
+        void M1();
+    }
+  class Class2:IB
+    {
+        public void M() { }
+        public void M1() { }
+    }
     class Demo2
     {
     }

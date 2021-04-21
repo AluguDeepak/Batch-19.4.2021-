@@ -10,6 +10,12 @@ namespace HandsOnInterfaces
     {
         static void Main(string[] args)
         {
+            EmployeeService service = new EmployeeService(); //access all the members of class
+            service.GetEmployees();
+            service.GetEmployeeByName("Rohan");
+            IEmployeeService service1 = new EmployeeService(); //access only interface members
+            service1.GetEmployees();
+           
         }
     }
 }
