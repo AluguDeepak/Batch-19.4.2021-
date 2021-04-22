@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HandsOnCollections.Demo4</StartupObject>
+    <StartupObject>HandsOnCollections.HashTableDemo2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,8 @@
     <Compile Include="Demo2.cs" />
     <Compile Include="Demo3.cs" />
     <Compile Include="Demo4.cs" />
+    <Compile Include="HashTableDemo.cs" />
+    <Compile Include="HashTableDemo2.cs" />
     <Compile Include="ListDemo1.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductInfo.cs" />
