@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HandsOnCollections.ProductMain</StartupObject>
+    <StartupObject>HandsOnCollections.Demo4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -8,7 +8,7 @@ namespace HandsOnCollections
 {
     class ProductInfo
     {
-        public List<Product> products = null;
+        public List<Product> products;
         public ProductInfo()
         {
             products = new List<Product>()
@@ -20,6 +20,10 @@ namespace HandsOnCollections
         public void AddProduct(Product product)
         {
             products.Add(product);
+            // products = products.OrderBy(i => i.Pid).ToList();
+            products = (from i in products
+                        orderby i.Pid
+                        select i).ToList();
         }
         //Get Product by Name
         public Product GetProduct(string name)
