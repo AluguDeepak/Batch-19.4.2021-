@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCollections\HandsOnCollections\bin\Debug\HandsOnCollections.exe.config
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCollections\HandsOnCollections\bin\Debug\HandsOnCollections.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCollections\HandsOnCollections\bin\Debug\HandsOnCollections.pdb
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCollections\HandsOnCollections\obj\Debug\HandsOnCollections.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCollections\HandsOnCollections\obj\Debug\HandsOnCollections.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCollections\HandsOnCollections\obj\Debug\HandsOnCollections.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCollections\HandsOnCollections\obj\Debug\HandsOnCollections.pdb
