@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnIndexer\HandsOnIndexer\obj\Debug\HandsOnIndexer.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnIndexer\HandsOnIndexer\obj\Debug\HandsOnIndexer.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnIndexer\HandsOnIndexer\bin\Debug\HandsOnIndexer.exe.config
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnIndexer\HandsOnIndexer\bin\Debug\HandsOnIndexer.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnIndexer\HandsOnIndexer\bin\Debug\HandsOnIndexer.pdb
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnIndexer\HandsOnIndexer\obj\Debug\HandsOnIndexer.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnIndexer\HandsOnIndexer\obj\Debug\HandsOnIndexer.pdb
