@@ -17,12 +17,14 @@ namespace HandsOnCollections
             hs.Add(p.Pid, p);
             hs.Add(p1.Pid, p1);
             hs.Add(p2.Pid, p2);
-            Product product = hs[1] as Product;
+            Product product = hs[p.Pid] as Product;
+            Console.WriteLine("No of Products {0}", hs.Count);
             hs.Remove(1);
             foreach(DictionaryEntry d in hs)
             {
-                Product pp = d.Value as Product;
-                Console.WriteLine("Product {0} Details {1} {2} {3}", d.Key, pp.Pname, pp.Price, pp.Stock);
+                //Product pp = d.Value as Product;
+                Product pp = (Product)d.Value;
+                Console.WriteLine("Product {0} Details {1} {2} {3}", d.Key, pp.Pname, pp.Price,pp.Stock);
             }
         }
     }

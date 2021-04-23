@@ -15,8 +15,12 @@ namespace HandsOnCollections
             hs.Add('a', "Apple");
             hs.Add(1002, "Karan");
             hs.Add(1003, "Suresh");
+            hs.Add("Ram", 1234);
             //access a value
             string s = hs[1000].ToString();
+            int k1 = Convert.ToInt32(hs["Ram"]);
+            int k2 = (int)hs["Ram"];
+
             foreach(object k in hs.Keys)
             {
                 Console.WriteLine($"Key:{k} Value:{hs[k]}");
