@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A45E34B-FB3D-4277-99F4-7B4DAC7763F7}</ProjectGuid>
+    <ProjectGuid>{86146A94-BAFC-4584-B261-D0CD8A9552AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HandsOnIndexer</RootNamespace>
-    <AssemblyName>HandsOnIndexer</AssemblyName>
+    <RootNamespace>HandsOnFileHandling</RootNamespace>
+    <AssemblyName>HandsOnFileHandling</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HandsOnIndexer.Demo3</StartupObject>
+    <StartupObject>HandsOnFileHandling.ReadWriteDemo_3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Demo1.cs" />
-    <Compile Include="Demo2.cs" />
-    <Compile Include="Demo3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadAndWriteUsingFile.cs" />
+    <Compile Include="ReadWriteDemo-2.cs" />
+    <Compile Include="ReadWriteDemo-3.cs" />
+    <Compile Include="WriteDemo1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

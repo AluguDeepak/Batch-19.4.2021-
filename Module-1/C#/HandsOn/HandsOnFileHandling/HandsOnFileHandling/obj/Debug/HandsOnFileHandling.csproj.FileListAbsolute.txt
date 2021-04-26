@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnFileHandling\HandsOnFileHandling\bin\Debug\HandsOnFileHandling.exe.config
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnFileHandling\HandsOnFileHandling\bin\Debug\HandsOnFileHandling.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnFileHandling\HandsOnFileHandling\bin\Debug\HandsOnFileHandling.pdb
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnFileHandling\HandsOnFileHandling\obj\Debug\HandsOnFileHandling.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnFileHandling\HandsOnFileHandling\obj\Debug\HandsOnFileHandling.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnFileHandling\HandsOnFileHandling\obj\Debug\HandsOnFileHandling.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnFileHandling\HandsOnFileHandling\obj\Debug\HandsOnFileHandling.pdb
