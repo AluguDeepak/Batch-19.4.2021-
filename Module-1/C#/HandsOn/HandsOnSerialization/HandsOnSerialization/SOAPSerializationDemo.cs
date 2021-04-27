@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Soap;
 using System.IO;
+using System.Runtime.Serialization.Json;
 namespace HandsOnSerialization
 {
     class SOAPSerializationDemo
