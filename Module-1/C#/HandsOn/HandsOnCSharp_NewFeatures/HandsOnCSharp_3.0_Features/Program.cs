@@ -24,7 +24,9 @@ namespace HandsOnCSharp_3._0_Features
             k = (int)o1;
             object o2 = "ABCD";
             object o3 = new Employee();
-            Employee e1 = o3 as Employee; 
+            Employee e1 = o3 as Employee;
+           
+           
 
         }
     }
