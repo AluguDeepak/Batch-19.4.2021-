@@ -1,0 +1,9 @@
+D:\Dotnet\Material\DOTNET\C#\HandsOnCSharp_NewFeatures\HandsOnTuples\obj\Debug\HandsOnTuples.csprojAssemblyReference.cache
+D:\Dotnet\Material\DOTNET\C#\HandsOnCSharp_NewFeatures\HandsOnTuples\obj\Debug\HandsOnTuples.csproj.CoreCompileInputs.cache
+D:\Training(18.02.2021)\Training-HandsOn\C#\Day12\HandsOnCSharp_NewFeatures\HandsOnTuples\obj\Debug\HandsOnTuples.csprojAssemblyReference.cache
+D:\Training(18.02.2021)\Training-HandsOn\C#\Day12\HandsOnCSharp_NewFeatures\HandsOnTuples\obj\Debug\HandsOnTuples.csproj.CoreCompileInputs.cache
+D:\Training(18.02.2021)\Training-HandsOn\C#\Day12\HandsOnCSharp_NewFeatures\HandsOnTuples\bin\Debug\HandsOnTuples.exe.config
+D:\Training(18.02.2021)\Training-HandsOn\C#\Day12\HandsOnCSharp_NewFeatures\HandsOnTuples\bin\Debug\HandsOnTuples.exe
+D:\Training(18.02.2021)\Training-HandsOn\C#\Day12\HandsOnCSharp_NewFeatures\HandsOnTuples\bin\Debug\HandsOnTuples.pdb
+D:\Training(18.02.2021)\Training-HandsOn\C#\Day12\HandsOnCSharp_NewFeatures\HandsOnTuples\obj\Debug\HandsOnTuples.exe
+D:\Training(18.02.2021)\Training-HandsOn\C#\Day12\HandsOnCSharp_NewFeatures\HandsOnTuples\obj\Debug\HandsOnTuples.pdb

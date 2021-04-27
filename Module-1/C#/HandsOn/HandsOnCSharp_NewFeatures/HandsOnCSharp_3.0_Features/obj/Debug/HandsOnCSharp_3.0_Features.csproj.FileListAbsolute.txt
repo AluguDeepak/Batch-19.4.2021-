@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp_3.0_Features\bin\Debug\HandsOnCSharp_3.0_Features.exe.config
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp_3.0_Features\bin\Debug\HandsOnCSharp_3.0_Features.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp_3.0_Features\bin\Debug\HandsOnCSharp_3.0_Features.pdb
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp_3.0_Features\obj\Debug\HandsOnCSharp_3.0_Features.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp_3.0_Features\obj\Debug\HandsOnCSharp_3.0_Features.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp_3.0_Features\obj\Debug\HandsOnCSharp_3.0_Features.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp_3.0_Features\obj\Debug\HandsOnCSharp_3.0_Features.pdb
