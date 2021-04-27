@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE8FD3BC-3EC8-4221-8762-8A178E4C823B}</ProjectGuid>
+    <ProjectGuid>{305C64F5-3009-4582-9628-2B3CC119A7CC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HandsOnSerialization</RootNamespace>
-    <AssemblyName>HandsOnSerialization</AssemblyName>
+    <RootNamespace>Day10.HandsOnSerialization</RootNamespace>
+    <AssemblyName>Day10.HandsOnSerialization</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HandsOnSerialization.SOAPSerializationDemo</StartupObject>
+    <StartupObject>Day10.HandsOnSerialization.Demo04</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,12 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SOAPSerializationDemo.cs" />
-    <Compile Include="BinarySerializationDemo.cs" />
-    <Compile Include="Employee.cs" />
+    <Compile Include="Demo01.cs" />
+    <Compile Include="Demo03.cs" />
+    <Compile Include="Demo04.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XMLSerializationDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
