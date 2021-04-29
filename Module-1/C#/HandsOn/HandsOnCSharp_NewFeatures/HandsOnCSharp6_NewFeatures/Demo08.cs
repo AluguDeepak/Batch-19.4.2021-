@@ -9,10 +9,10 @@ namespace HandsOnCSharp6_NewFeatures
     //Expression–Bodied Methods
     class Demo08
     {
-       //public static string Greet(string name)
-       // {
-       //     return name;
-       // }
+        //public static string Greet(string name)
+        //{
+        //    return name;
+        //}
         public static string Greet(string name) => "Hello " + name;
         public static double Square(double d) => d * d;
         static void Main()

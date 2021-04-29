@@ -11,7 +11,7 @@ namespace HandsOnCSharp4_NewFeatures
         static void Main(string[] args)
         {
             dynamic stud = new Student();
-
+            
             stud.DisplayStudentInfo(1, "Bill");// run-time error, no compile-time error
             stud.DisplayStudentInfo("1");// run-time error, no compile-time error
             stud.FakeMethod();// run-time error, no compile-time error

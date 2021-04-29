@@ -16,6 +16,8 @@ namespace HandsOnCSharp6_NewFeatures
                 {"Nitin","Noida" },
                 {"Sonu","Barut" }
             };
+            dic.Add("Sidu", "Banglore");
+            dic["Sachin"] = "Mumbai";
             Dictionary<string, string> dicStr = new Dictionary<string, string>()
             {
                 ["Nitin"] = "Noida",

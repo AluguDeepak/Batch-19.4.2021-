@@ -18,7 +18,8 @@ namespace HandsOnCSharp6_NewFeatures
         static void Main()
         {
             Emp obj = new Emp();
-            obj.Name = "Rohan"; //earlier syntax
+            //obj.Name = "Rohan"; //earlier syntax
+            string name = obj.Name;
             
         }
     }

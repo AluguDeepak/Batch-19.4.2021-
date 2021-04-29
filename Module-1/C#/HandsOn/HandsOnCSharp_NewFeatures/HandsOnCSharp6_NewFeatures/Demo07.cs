@@ -22,7 +22,8 @@ namespace HandsOnCSharp6_NewFeatures
     {
         static void Main()
         {
-
+            Employee e = null;
+            Console.WriteLine(e?.Name);
             Employee emp = new Employee();
             if(emp!=null)
             {

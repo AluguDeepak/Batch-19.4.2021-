@@ -5,3 +5,10 @@ D:\Dotnet\Material\DOTNET\C#\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeature
 D:\Dotnet\Material\DOTNET\C#\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\obj\Debug\HandsOnCSharp6_NewFeatures.csproj.CoreCompileInputs.cache
 D:\Dotnet\Material\DOTNET\C#\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\obj\Debug\HandsOnCSharp6_NewFeatures.exe
 D:\Dotnet\Material\DOTNET\C#\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\obj\Debug\HandsOnCSharp6_NewFeatures.pdb
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\bin\Debug\HandsOnCSharp6_NewFeatures.exe.config
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\bin\Debug\HandsOnCSharp6_NewFeatures.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\bin\Debug\HandsOnCSharp6_NewFeatures.pdb
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\obj\Debug\HandsOnCSharp6_NewFeatures.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\obj\Debug\HandsOnCSharp6_NewFeatures.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\obj\Debug\HandsOnCSharp6_NewFeatures.exe
+D:\Training(4.19.2021)\Modules\Module-1\C#\HandsOn\HandsOnCSharp_NewFeatures\HandsOnCSharp6_NewFeatures\obj\Debug\HandsOnCSharp6_NewFeatures.pdb
