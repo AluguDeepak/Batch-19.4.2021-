@@ -12,5 +12,6 @@ namespace HandsOnAdo.Demo1.Entities
         public string Ename { get; set; }
         public string Designation { get; set; }
         public string DeptId { get; set; }
+       
     }
 }
