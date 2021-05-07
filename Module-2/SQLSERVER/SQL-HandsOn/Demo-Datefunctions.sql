@@ -8,7 +8,7 @@ select DATEPART(mm,'12.2.2019')
 select DATEPART(dd,'12.2.2019')
 select DATEPART(dw,getdate())
 select DATEPART(hh,getdate())
-select DATEPART(MM,getdate())
+select DATEPART(MI,getdate())
 select DATEPART(SS,getdate())
 
 select DateName(dw,getdate())

@@ -21,6 +21,7 @@ namespace HandsOnReflection
     {
         static void Main()
         {
+           // Compute obj = new Compute();
             //Invoke Compute class Add() using reflection
             Type t = typeof(Compute);
             MethodInfo m = t.GetMethod("Greet");
