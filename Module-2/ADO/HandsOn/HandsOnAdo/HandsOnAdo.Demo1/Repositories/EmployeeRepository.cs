@@ -144,5 +144,35 @@ namespace HandsOnAdo.Demo1.Repositories
                 connection.Close();
             }
         }
+
+        public string GetEmplyeeName(int empId)
+        {
+            try
+            {
+                // connection = new SqlConnection("Data Source=SANTU\\MSSQLSERVER2019;Initial Catalog=Batch2DB;Integrated Security=true");
+                connection.Open(); //open connection to db
+                command = new SqlCommand("Select Ename from Employee where Eid=@Eid", connection);
+                //passing values to @Eid Parameter
+                command.Parameters.AddWithValue("@Eid", empId);
+                string ename = null;
+                object result=command.ExecuteScalar(); //use it when query retunrs only single value
+                if(result!=null)
+                {
+                    ename = result.ToString();
+                }
+                return ename;
+              
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw ex;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
     }
 }

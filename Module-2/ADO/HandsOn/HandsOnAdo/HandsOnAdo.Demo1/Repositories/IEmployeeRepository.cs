@@ -13,5 +13,6 @@ namespace HandsOnAdo.Demo1.Repositories
         void AddEmployee(Employee employee);
         void DeleteEmployee(int empId);
         void UpdateEmployee(int empId, Employee employee);
+        string GetEmplyeeName(int empId);
     }
 }

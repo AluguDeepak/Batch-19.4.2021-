@@ -18,7 +18,8 @@ namespace HandsOnAdo.Demo1
                 Console.WriteLine("3.Get All Employees");
                 Console.WriteLine("4.Delete Employee");
                 Console.WriteLine("5.Update Employee");
-                Console.WriteLine("6.Exit");
+                Console.WriteLine("7.Exit");
+                Console.WriteLine("6.GetName");
                 Console.WriteLine("Enter your choice");
                 int choice = int.Parse(Console.ReadLine());
                 EmployeeRepository repository = new EmployeeRepository();
@@ -73,9 +74,24 @@ namespace HandsOnAdo.Demo1
                             repository.UpdateEmployee(employee.Eid,employee);
                         }
                         break;
-                    case 6:
+                    case 7:
                         {
                             Environment.Exit(0);
+                        }
+                        break;
+                    case 6:
+                        {
+                            Console.WriteLine("Enter Id");
+                            int eid = int.Parse(Console.ReadLine());
+                            string name = repository.GetEmplyeeName(eid);
+                            if(name!=null)
+                            {
+                                Console.WriteLine("Employee Name: " + name);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Invalid Id");
+                            }
                         }
                         break;
                 }
