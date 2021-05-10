@@ -1,0 +1,14 @@
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdo\HandsOnAdo.Demo1\bin\Debug\HandsOnAdo.Demo1.exe.config
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdo\HandsOnAdo.Demo1\bin\Debug\HandsOnAdo.Demo1.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdo\HandsOnAdo.Demo1\bin\Debug\HandsOnAdo.Demo1.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdo\HandsOnAdo.Demo1\obj\Debug\HandsOnAdo.Demo1.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdo\HandsOnAdo.Demo1\obj\Debug\HandsOnAdo.Demo1.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdo\HandsOnAdo.Demo1\obj\Debug\HandsOnAdo.Demo1.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdo\HandsOnAdo.Demo1\obj\Debug\HandsOnAdo.Demo1.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOn\HandsOnAdo\HandsOnAdo.Demo1\bin\Debug\HandsOnAdo.Demo1.exe.config
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOn\HandsOnAdo\HandsOnAdo.Demo1\bin\Debug\HandsOnAdo.Demo1.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOn\HandsOnAdo\HandsOnAdo.Demo1\bin\Debug\HandsOnAdo.Demo1.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOn\HandsOnAdo\HandsOnAdo.Demo1\obj\Debug\HandsOnAdo.Demo1.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOn\HandsOnAdo\HandsOnAdo.Demo1\obj\Debug\HandsOnAdo.Demo1.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOn\HandsOnAdo\HandsOnAdo.Demo1\obj\Debug\HandsOnAdo.Demo1.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOn\HandsOnAdo\HandsOnAdo.Demo1\obj\Debug\HandsOnAdo.Demo1.pdb

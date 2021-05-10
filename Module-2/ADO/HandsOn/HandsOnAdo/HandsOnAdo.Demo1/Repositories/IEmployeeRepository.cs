@@ -10,5 +10,8 @@ namespace HandsOnAdo.Demo1.Repositories
     {
         void GetEmployees();
         Employee GetEmployeeById(int empId);
+        void AddEmployee(Employee employee);
+        void DeleteEmployee(int empId);
+        void UpdateEmployee(int empId, Employee employee);
     }
 }
