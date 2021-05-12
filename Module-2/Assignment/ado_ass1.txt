@@ -1,0 +1,12 @@
+Create Customer table with (CId,Cname,City,Address)
+Write Following Procedures
+GetCustomers()
+GetCustomerById()
+AddCustomer()
+UpdateCustomer()
+DeleteCustomer()
+Create a Console Application and Invoke all the above stored procedures using Ado.net
+Create an Entity Customer(Cid,Cname,City And Adress)
+Write Cred Opration on Customer Entity using sroted procedures.
+
+Note:test all the functions using menu driven code.

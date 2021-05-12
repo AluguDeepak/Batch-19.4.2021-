@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingStoredProcedures\HandsOnAdoUsingStoredProcedures\bin\Debug\HandsOnAdoUsingStoredProcedures.exe.config
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingStoredProcedures\HandsOnAdoUsingStoredProcedures\bin\Debug\HandsOnAdoUsingStoredProcedures.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingStoredProcedures\HandsOnAdoUsingStoredProcedures\bin\Debug\HandsOnAdoUsingStoredProcedures.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingStoredProcedures\HandsOnAdoUsingStoredProcedures\obj\Debug\HandsOnAdoUsingStoredProcedures.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingStoredProcedures\HandsOnAdoUsingStoredProcedures\obj\Debug\HandsOnAdoUsingStoredProcedures.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingStoredProcedures\HandsOnAdoUsingStoredProcedures\obj\Debug\HandsOnAdoUsingStoredProcedures.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingStoredProcedures\HandsOnAdoUsingStoredProcedures\obj\Debug\HandsOnAdoUsingStoredProcedures.pdb
