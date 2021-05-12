@@ -130,14 +130,15 @@ namespace HandsOnAdoUsingStoredProcedures.Repositories
                 {
                     while(reader.Read())
                     {
-                        products = new List<Product>() { 
-                        new Product()
+                        products = new List<Product>();
+                         
+                       products.Add(new Product()
                         {
                             Pid = (int)reader["Pid"],
                             Pname = reader["Pname"].ToString(),
                             Price=(int)reader["Price"],
                             Stock=(int)reader["Stock"]
-                        } };
+                        }) ;
                         
                     }
                 }
