@@ -33,10 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HandsOnAdoUsingDataset.Demo2</StartupObject>
+    <StartupObject>HandsOnAdoUsingDataset.Repositories.Test_Repository</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,8 +49,10 @@
   <ItemGroup>
     <Compile Include="Demo1.cs" />
     <Compile Include="Demo2.cs" />
+    <Compile Include="Entity\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ProductRepositories.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
