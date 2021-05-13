@@ -22,20 +22,20 @@ namespace HandsOnAdoUsingStoredProcedures
                 //    Stock = 20
                 //};
                 //repository.AddProduct(product);
-                //List<Product> products = repository.GetProducts();
-                //foreach(var item in products)
-                //{
-                //    Console.WriteLine("ID:{0} Name:{1} Price:{2} Stock:{3}", item.Pid, item.Pname, item.Price, item.Stock);
-                //}
-                Console.WriteLine("Enter Product Id");
-                int Pid = int.Parse(Console.ReadLine());
-                Product product = repository.GetProduct(Pid);
-                if (product != null)
+                List<Product> products = repository.GetProducts();
+                foreach (var item in products)
                 {
-                    Console.WriteLine("Name:{0} Price {1}", product.Pname, product.Price);
+                    Console.WriteLine("ID:{0} Name:{1} Price:{2} Stock:{3}", item.Pid, item.Pname, item.Price, item.Stock);
                 }
-                else
-                    Console.WriteLine("Invalid id");
+                //Console.WriteLine("Enter Product Id");
+                //int Pid = int.Parse(Console.ReadLine());
+                //Product product = repository.GetProduct(Pid);
+                //if (product != null)
+                //{
+                //    Console.WriteLine("Name:{0} Price {1}", product.Pname, product.Price);
+                //}
+                //else
+                //    Console.WriteLine("Invalid id");
             }
             catch(Exception ex)
             {

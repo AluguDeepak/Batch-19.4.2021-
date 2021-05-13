@@ -125,14 +125,15 @@ namespace HandsOnAdoUsingStoredProcedures.Repositories
                 };
                 connection.Open();
                 SqlDataReader reader=command.ExecuteReader();
+                
                 List<Product> products = null;
                 if(reader.HasRows)
                 {
-                    while(reader.Read())
+                    products = new List<Product>();
+                    while (reader.Read())
                     {
-                        products = new List<Product>();
-                         
-                       products.Add(new Product()
+                        connection.Close();
+                        products.Add(new Product()
                         {
                             Pid = (int)reader["Pid"],
                             Pname = reader["Pname"].ToString(),

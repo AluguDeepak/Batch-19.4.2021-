@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingDataset\HandsOnAdoUsingDataset\bin\Debug\HandsOnAdoUsingDataset.exe.config
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingDataset\HandsOnAdoUsingDataset\bin\Debug\HandsOnAdoUsingDataset.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingDataset\HandsOnAdoUsingDataset\bin\Debug\HandsOnAdoUsingDataset.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingDataset\HandsOnAdoUsingDataset\obj\Debug\HandsOnAdoUsingDataset.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingDataset\HandsOnAdoUsingDataset\obj\Debug\HandsOnAdoUsingDataset.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingDataset\HandsOnAdoUsingDataset\obj\Debug\HandsOnAdoUsingDataset.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\HandsOnAdoUsingDataset\HandsOnAdoUsingDataset\obj\Debug\HandsOnAdoUsingDataset.pdb
