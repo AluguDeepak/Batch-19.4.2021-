@@ -1,0 +1,18 @@
+Create Login Table(Username,Password)(add few users)
+Creatre Stored Procedure to AddLogin(@uname,@pwd)
+Create Stored Procedure to ValidateUser(@uname,@pwd)
+Invoke the SP using Ado.net using console app.
+==========================================================================================
+Create table Book(Book_id,Book_name,publisher,cost,release_year)
+Pefrom all the Cred Oprations of Book table using Dataset(Disconnected Architechture)
+
+1.Create Book ENtitty
+2.Create Book Repository
+AddBook()
+GetBooks()
+GetBookById()
+DeleteBook()
+UpdateBook()
+
+Test All the reposiotry methods in a Main Class uing Menu driven code.
+============================================================================================
