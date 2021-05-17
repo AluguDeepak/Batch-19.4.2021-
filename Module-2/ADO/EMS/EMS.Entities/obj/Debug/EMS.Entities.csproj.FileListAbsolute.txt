@@ -1,0 +1,5 @@
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.Entities\bin\Debug\EMS.Entities.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.Entities\bin\Debug\EMS.Entities.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.Entities\obj\Debug\EMS.Entities.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.Entities\obj\Debug\EMS.Entities.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.Entities\obj\Debug\EMS.Entities.pdb

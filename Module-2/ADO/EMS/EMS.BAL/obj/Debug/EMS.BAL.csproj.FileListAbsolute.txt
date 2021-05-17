@@ -1,0 +1,12 @@
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\bin\Debug\EMS.BAL.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\bin\Debug\EMS.BAL.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\bin\Debug\EMS.DAL.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\bin\Debug\EMS.Entities.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\bin\Debug\EMS.DAL.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\bin\Debug\EMS.DAL.dll.config
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\bin\Debug\EMS.Entities.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\obj\Debug\EMS.BAL.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\obj\Debug\EMS.BAL.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\obj\Debug\EMS.BAL.csproj.CopyComplete
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\obj\Debug\EMS.BAL.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.BAL\obj\Debug\EMS.BAL.pdb

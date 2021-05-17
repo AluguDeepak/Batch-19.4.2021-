@@ -1,0 +1,15 @@
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.UI.exe.config
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.UI.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.UI.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.BAL.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.Entities.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.DAL.dll
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.BAL.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.Entities.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.DAL.pdb
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\bin\Debug\EMS.DAL.dll.config
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\obj\Debug\EMS.UI.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\obj\Debug\EMS.UI.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\obj\Debug\EMS.UI.csproj.CopyComplete
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\obj\Debug\EMS.UI.exe
+D:\Training(4.19.2021)\Modules\Module-2\ADO\EMS\EMS.UI\obj\Debug\EMS.UI.pdb
