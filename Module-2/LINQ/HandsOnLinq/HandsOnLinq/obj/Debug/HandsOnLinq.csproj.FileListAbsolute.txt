@@ -1,0 +1,7 @@
+D:\Training(4.19.2021)\Modules\Module-2\LINQ\HandsOnLinq\HandsOnLinq\bin\Debug\HandsOnLinq.exe.config
+D:\Training(4.19.2021)\Modules\Module-2\LINQ\HandsOnLinq\HandsOnLinq\bin\Debug\HandsOnLinq.exe
+D:\Training(4.19.2021)\Modules\Module-2\LINQ\HandsOnLinq\HandsOnLinq\bin\Debug\HandsOnLinq.pdb
+D:\Training(4.19.2021)\Modules\Module-2\LINQ\HandsOnLinq\HandsOnLinq\obj\Debug\HandsOnLinq.csprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\Module-2\LINQ\HandsOnLinq\HandsOnLinq\obj\Debug\HandsOnLinq.csproj.CoreCompileInputs.cache
+D:\Training(4.19.2021)\Modules\Module-2\LINQ\HandsOnLinq\HandsOnLinq\obj\Debug\HandsOnLinq.exe
+D:\Training(4.19.2021)\Modules\Module-2\LINQ\HandsOnLinq\HandsOnLinq\obj\Debug\HandsOnLinq.pdb
