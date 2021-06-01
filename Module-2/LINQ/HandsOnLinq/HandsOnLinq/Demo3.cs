@@ -10,6 +10,7 @@ namespace HandsOnLinq
     {
         public int Eid { get; set; }
         public string Ename { get; set; }
+        public double Salary { get; set; }
     }
 
     class Demo3
@@ -18,12 +19,12 @@ namespace HandsOnLinq
         {
             List<Employee> employees = new List<Employee>()
             {
-                new Employee(){Eid=1,Ename="Rohan"},
-                new Employee(){Eid=2,Ename="Karan"},
-                new Employee(){Eid=3,Ename="Jeson"},
-                new Employee(){Eid=4,Ename="Suman"},
-                new Employee(){Eid=5,Ename="Raman"},
-                new Employee(){Eid=6,Ename="Charan"},
+                new Employee(){Eid=1,Ename="Rohan",Salary=12000},
+                new Employee(){Eid=2,Ename="Karan",Salary=12000},
+                new Employee(){Eid=3,Ename="Jeson",Salary=18000},
+                new Employee(){Eid=4,Ename="Suman",Salary=16000},
+                new Employee(){Eid=5,Ename="Raman",Salary=16000},
+                new Employee(){Eid=6,Ename="Charan",Salary=18000},
             };
             Employee e1 = employees.First();
             e1 = employees.Where(i => i.Ename.StartsWith("R")).First();
@@ -37,7 +38,7 @@ namespace HandsOnLinq
             if (e1 != null)
                 Console.WriteLine("{0} {1}", e1.Eid, e1.Ename);
             e1 = employees.Where(i => i.Eid == 1).Single();//when sequence contains only one element
-             e1 = employees.Single(i => i.Eid>10); //throws exception when sequence return multile elemens or no elementes
+            // e1 = employees.Single(i => i.Eid>1); //throws exception when sequence return multile elemens or no elementes
             e1 = employees.SingleOrDefault(i => i.Eid == 1);
             if (e1 != null)
                 Console.WriteLine("{0} {1}", e1.Eid, e1.Ename);
@@ -50,6 +51,17 @@ namespace HandsOnLinq
             if(e1!=null)
             {
                 Console.WriteLine("{0} {1}", e1.Eid, e1.Ename);
+            }
+            //Group by
+            var result2 = (from i in employees group i by i.Salary);
+            result2 = employees.GroupBy(i => i.Salary);
+            foreach(var item in result2)
+            {
+                Console.WriteLine("Employee havding salary of {0} ", item.Key);
+                foreach(var i in item)
+                {
+                    Console.WriteLine("Name:{0}", i.Ename);
+                }
             }
         }
     }
