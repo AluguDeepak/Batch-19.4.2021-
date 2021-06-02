@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+       div
+       {
+           border:5px solid gray;
+           width:40%;
+       }
+       span
+       {
+           color:rebeccapurple;
+       }
+    </style>
+<script>
+    function Validate() {
+        let nam = document.getElementById('txtName').value;
+        let mobile = document.getElementById('txtMobile').value;
+        let pwd = document.getElementById('txtPwd').value;
+        let rpwd = document.getElementById('txtRPwd').value;
+        if (!ValidateName()) {
+            document.getElementById('errMsg').innerText = "Pls Enter Valid Name";
+            event.preventDefault();
+        }
+		else if (!ValidateMobile()) {
+			document.getElementById('errMsg').innerText = "Pls Enter Valid Mobile";
+			event.preventDefault();
+        }
+		else if (!ValidatePassword()) {
+			document.getElementById('errMsg').innerText = "Pls Enter Valid Password";
+			event.preventDefault();
+        }
+        else if (!MatchPassword()) {
+			document.getElementById('errMsg').innerText = "Password Mismatch";
+			event.preventDefault();
+		}
+        function ValidateName() {
+            let expr = '^[a-zA-Z]{2,}$';
+            let regx = new RegExp(expr);
+            if (regx.test(nam)) {
+                return true;
+            }
+            else
+                return false
+        }
+		function ValidateMobile() {
+			let expr = '^[6789][0-9]{9}$';
+            let regx = new RegExp(expr);
+            if (regx.test(mobile)) {
+				return true;
+			}
+			else
+				return false
+        }
+		function ValidatePassword() {
+			let expr = '^[a-zA-Z0-9]{6,8}$';
+            let regx = new RegExp(expr);
+            if (regx.test(pwd)) {
+				return true;
+			}
+			else
+				return false
+        }
+		function MatchPassword() {
+
+            if (pwd == rpwd) {
+				return true;
+			}
+			else
+				return false
+		}
+	}
+</script>
+</head>
+<body>
+    <div>
+        <form action="Login.html" onsubmit="Validate()">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="txtName" /></td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="text" id="txtMobile" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" id="txtPwd" /></td>
+                </tr>
+                <tr>
+                    <td>Retype Password</td>
+                    <td><input type="password" id="txtRPwd" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Create" /></td>
+                    <td><input type="reset" value="Reset" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span id="errMsg"></span>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

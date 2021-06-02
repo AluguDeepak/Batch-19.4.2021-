@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script>
+		function SetColor() {
+			let color = document.getElementById('ddl').value;
+			document.body.style = 'background-color:' + color
+		}
+	</script>
+</head>
+<body onload="SetColor()">
+	<div>
+		<table>
+			<tr>
+				<td>Select Color</td>
+				<td>
+					<select id="ddl" onchange="SetColor()">
+						<option>Red</option>
+						<option>Blue</option>
+						<option>Green</option>
+						<option>Yellow</option>
+						<option>Pink</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

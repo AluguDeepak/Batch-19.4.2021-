@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div
+        {
+            border:2px solid blue;
+            width:30%;
+        }
+    </style>
+    <script>
+        Greet = () => {
+            let val = document.getElementById('txtName').value;
+            window.alert('Hello ' + val);
+        }
+        Focus = () => {
+            document.getElementById('txtName').focus(); //set focus to the given element.
+		}
+    </script>
+</head>
+<body onload="Focus()">
+    <div>
+        <table>
+            <tr>
+                <td>Enter Name</td>
+                <td><input type="text" id="txtName" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Click" onclick="Greet()" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

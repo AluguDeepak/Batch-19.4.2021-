@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        span
+        {
+            color:red;
+            font-family:'Agency FB';
+        }
+    </style>
+    <script>
+        function Validate() {
+            let uname = document.getElementById('txtUname').value;
+            let pwd = document.getElementById('txtPwd').value;
+            if (uname == '') {
+                document.getElementById('errMsg').innerText = "Pls Enter username";
+                event.preventDefault(); //restrict to submit the form to the server
+            }
+            else if (pwd == '') {
+                document.getElementById('errMsg').innerText = "Pls Enter password";
+                event.preventDefault();
+			}
+		}
+    </script>
+</head>
+<body>
+    <div>
+        <form  action='http://www.google.com' onsubmit="Validate()">
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" id="txtUname" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="text" id="txtPwd" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="SignIn" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span id="errMsg"></span>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
