@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function f() {
+            alert("Hello");
+		}
+        $(document).ready(function () {
+            $("button").click(function () {
+                let n = $("#t1").val(); //returns textbox t1 value
+                $("#s1").css("color", "red");
+                $("#s1").text("Hello " + n);
+            })
+            $("#b1").click(f);
+
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <span>Enter Name</span><input type="text" id="t1" />
+        <button>Click Me</button>
+        <span id="s1"></span>
+        <button id="b1">Get</button>
+    </div>
+</body>
+</html>

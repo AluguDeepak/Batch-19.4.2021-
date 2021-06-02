@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+       
+        function setColor() {
+            let cname = document.getElementById("ddl").value;
+            //alert("Selected Color: " + cname);
+            //set back-color
+            document.body.style.backgroundColor = cname;
+		}
+    </script>
+    <style>
+       
+    </style>
+</head>
+<body>
+   <div>
+       <span>Select Color</span><select id="ddl" onchange="setColor()">
+    <option value="Red">Red</option>
+    <option value="Green">Green</option>
+    <option value="Yellow">Yellow</option>
+    <option value="Blue">Blue</option>
+    <option value="Brown">Brown</option>
+</select>
+   </div>
+    <script>
+		let cname = document.getElementById("ddl").value;
+		document.body.style.backgroundColor = cname;
+    </script>
+</body>
+</html>

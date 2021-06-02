@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function GetLang() {
+            let lang = document.getElementById('ddl1').value;
+            alert("Your language is: " + lang);
+        }
+        function SetColor() {
+            let colr = document.getElementById('ddl2').value;
+            //alert(colr);
+            document.body.style.backgroundColor = colr;
+		}
+    </script>
+</head>
+<body>
+    <div>
+        <span>Select Country</span>
+        <select id="ddl1" onchange="GetLang()">
+            <option value="Hindi">India</option>
+            <option value="English">US</option>
+            <option value="English">UK</option>
+            <option value="Chinees">China</option>
+        </select>
+    </div>
+    <div>
+        <span>Select Color</span>
+        <select id="ddl2" onchange="SetColor()">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="pink">Pink</option>
+        </select>
+    </div>
+</body>
+</html>

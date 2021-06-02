@@ -1,0 +1,14 @@
++ ->one or more occurence
+* ->zero or more occurence
+\char->only that char
+.->any char 
+\\d ->any degit
+\\D -> any char
+
+{}-limit of char
+{min,max}
+[]-range of value
+^->begining of string
+$->ending of string
+-? one occurence
+var v=new regexpatters("^strr$")

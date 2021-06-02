@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function f1() {
+            document.getElementById('img1').style.width = "400px";
+            document.getElementById('img1').style.height = "400px";
+        }
+        function f2() {
+            document.getElementById('img1').style.width = "200px";
+            document.getElementById('img1').style.height = "200px";
+        }
+        function Load() {
+            document.body.style.backgroundColor = "blue";
+		}
+    </script>
+</head>
+<body onload="Load()">
+    <img src="Koala.jpg" id='img1' onmouseover="f1()"
+         onmouseout="f2()">
+</body>
+</html>

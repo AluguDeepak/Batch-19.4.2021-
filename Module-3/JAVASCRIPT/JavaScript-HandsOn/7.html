@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        //function declaration
+        function Message() {
+            console.log("Hello Users..");
+        }
+        //invoke function
+        Message();
+        function Greet(name) {
+            let r = "Hello " + name;
+            console.log(r);
+        }
+        Greet('Sachin');
+        function Add(a, b = 10) {
+            let c = a + b;
+            console.log("Sum: " + c);
+        }
+        Add(12);
+        Add(3, 4);
+        function Sqaure(i) {
+            return i * i;
+        }
+        console.log(Sqaure(12));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

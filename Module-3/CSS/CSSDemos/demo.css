@@ -1,0 +1,14 @@
+﻿body
+{
+	background-color:blueviolet;
+}
+h1,h2,h3{
+color:teal;
+font-family:'Times New Roman';
+font-size:30px;
+}
+p
+{
+	color:palegreen;
+	margin-left:20px;
+}

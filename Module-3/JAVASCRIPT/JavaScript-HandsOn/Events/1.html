@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function f() {
+            alert("Hello Users");
+        }
+        function Greet() {
+            var obj = document.getElementById("t1");
+            let uname = obj.value;
+            alert("Hello " + uname);
+		}
+    </script>
+    <style>
+        div
+        {
+            border:1px solid gray;
+            width:200px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+       <span>Enter Name</span><input type="text" id="t1" />
+        <input type="button" value="Greet" onclick="Greet()" />
+    </div>
+    <input type="button" value="ClickMe" onclick="f()" />
+</body>
+</html>

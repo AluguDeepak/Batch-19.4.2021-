@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Validate() {
+
+            //Validating SID
+            let Sid = document.getElementById("txtId").value;
+            let exp = new RegExp("^S\\d{3}$");
+            let result = exp.test(Sid)
+            if (result == false) {
+                document.getElementById("Sid").innerHTML = "Invalid ID";
+				return false;
+            }
+            else {
+                document.getElementById("Sid").innerHTML = "";
+            }
+            //Validate Name
+            let Sname = document.getElementById("txtName").value;
+            exp = new RegExp("^[A-Z]{2,}$");
+            result = exp.test(Sname);
+            if (result == false) {
+				document.getElementById("SName").innerHTML = "Invalid Name Format";
+				return false;
+			}
+			else {
+				document.getElementById("SName").innerHTML = "";
+            }
+			//Validate Mobile
+			let mobile = document.getElementById("txtMobile").value;
+            exp = new RegExp("^[6789]\\d{9}$");
+            result = exp.test(mobile);
+            if (result == false) {
+				document.getElementById("SMobile").innerHTML = "Invalid Mobile Format";
+				return false;
+			}
+			else {
+				document.getElementById("SMobile").innerHTML = "";
+            }
+
+			//Validate Username
+			let uname = document.getElementById("txtUname").value;
+			exp = new RegExp("^[0-9a-zA-Z]{4,8}$");
+			result = exp.exec(uname);
+			if (result == null) {
+				document.getElementById("SUname").innerHTML = "Invalid Username";
+				return false;
+			}
+			else {
+				document.getElementById("SUname").innerHTML = "";
+            }
+			//Validate Password
+			let pwd = document.getElementById("txtPwd").value;
+            exp = new RegExp("^[0-9a-zA-Z]{4}[!@#%$]{1}$");
+            result = exp.test(pwd);
+            if (result == false) {
+				document.getElementById("SPwd").innerHTML = "Invalid Password";
+				return false;
+			}
+			else {
+				document.getElementById("SPwd").innerHTML = "";
+			}
+          
+        }
+    </script>
+    <style>
+        div {
+            border: 1px solid gray;
+            width: 500px;
+            height: 170px;
+            padding: 30px;
+            margin: 20px;
+            background-color: lightgrey;
+        }
+        span
+        {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://www.google.co.in" onsubmit=" return Validate()">
+        <center>
+            <div>
+                <table>
+                    <tr>
+                        <td>ID</td>
+                        <td><input type="text" id="txtId" /></td>
+                        <td><span id="Sid"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" id="txtName" /></td>
+                        <td><span id="SName"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                        <td><input type="text" id="txtMobile" /></td>
+                        <td><span id="SMobile"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" id="txtUname" /></td>
+                        <td><span id="SUname"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" id="txtPwd" /></td>
+                        <td><span id="SPwd"></span></td>
+                    </tr>
+                    <tr align="center">
+                        <td><input type="submit" value="Register" /></td>
+                        <td><input type="reset" value="Reset" /></td>
+                    </tr>
+                    
+                </table>
+            </div>
+        </center>
+    </form>
+</body>
+</html>

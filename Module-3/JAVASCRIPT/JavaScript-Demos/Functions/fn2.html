@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Sqauer(n) {
+            let c = n * n;
+            return c;
+        }
+        let v = Sqauer(10)
+        console.log(v);
+        function f() {
+            let a = [12, 23, 34, 45]
+            return a;
+        }
+        let no = f()
+        for (i of no)
+            console.log(i)
+        //return object
+        function f1() {
+            return  { Sid: 1, Sname: 'Rohan' };
+        }
+        let obj = f1()
+        console.log("ID: " + obj.Sid + " Name: " + obj.Sname);
+        function f2() {
+            var items = [
+                { Eid: 100, Ename: "Rohan" },
+                { Eid: 101, Ename: "Charan" },
+                { Eid: 102, Ename: "Ram" },
+                { Eid: 103, Ename: "Rahim" },
+                { Eid: 104, Ename: "Joy" },
+                { Eid: 105, Ename: "Jeson" },
+                { Eid: 106, Ename: "David" },
+                { Eid: 107, Ename: "Sachin" },
+            ];
+            return items;
+        }
+        for (let item of f2()) {
+			console.log("Eid:" + item.Eid + " Ename: " + item.Ename);
+		}
+    </script>
+</head>
+<body>
+
+</body>
+</html>

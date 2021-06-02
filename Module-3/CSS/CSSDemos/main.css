@@ -1,0 +1,17 @@
+body
+{
+background-color:lightblue;
+}
+header
+{
+border:1px solid gray;
+background-color:orange;
+width:auto;
+height:auto;
+margin:10px;
+}
+header h1
+{
+color:white;
+text-align:center;
+}

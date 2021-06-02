@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var obj = { Eid: 100, Ename: 'Rohan' }; //object declaration
+        console.log("Eid: " + obj.Eid);
+        console.log("EName: " + obj.Ename);
+        //collections
+        var items = [
+            { Eid: 100, Ename:"Rohan" },
+            { Eid: 101, Ename:"Charan" },
+            { Eid: 102, Ename:"Ram" },
+            { Eid: 103, Ename:"Rahim" },
+            { Eid: 104, Ename:"Joy" },
+            { Eid: 105, Ename:"Jeson" },
+            { Eid: 106, Ename:"David" },
+			{ Eid: 107, Ename:"Sachin" },
+        ]
+        //access specific object details
+        console.log("Eid:" + items[3].Eid)
+        console.log("EName: " + items[3].Ename)
+        //fetch all the objects data
+        for (let i of items) {
+            console.log("Eid:" + i.Eid +" Ename: "+i.Ename);
+		}
+    </script>
+</head>
+<body>
+
+</body>
+</html>

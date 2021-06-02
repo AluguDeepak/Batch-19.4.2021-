@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        table
+        {
+            margin:10px;
+        }
+    </style>
+    <script>
+        $(function()
+        {
+            var list = [{Sid:1,Sname:'Rohan',Age:12},
+                { Sid: 2, Sname: 'Suren', Age: 14 },
+                { Sid: 3, Sname: 'Jeson', Age: 13 },
+                { Sid: 3, Sname: 'Jeson', Age: 13 },
+                { Sid: 3, Sname: 'Jeson', Age: 13 },
+                { Sid: 3, Sname: 'Jeson', Age: 13 }
+
+            ]
+           
+            $.each(list,function(i,obj)
+            {
+                var rh = '<tr><td>' + obj.Sid + '</td><td>' + obj.Sname + '</td><td>' + obj.Age + '</td></tr>'
+                $('#t1').append(rh);
+            })
+           
+            
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <table id="t1" class="table table-bordered">
+            <tr><td>Sid</td><td>Sname</td><td>Age</td>
+        </table>
+    </div>
+</body>
+</html>

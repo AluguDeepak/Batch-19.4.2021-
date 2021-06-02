@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script>
+        function Greet()
+        {
+            let n=document.getElementById('t1').value;
+           // alert('Hello '+n);
+           document.getElementById('s1').innerText='Hello '+n;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <span>Enter Name</span><input type="text"  id="t1"><br>
+        <input type="button" value="Click" onclick="Greet()">
+        <span id='s1' style="color:rebeccapurple"></span>
+    </form>
+</body>
+</html>

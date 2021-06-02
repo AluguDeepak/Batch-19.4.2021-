@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Message() {
+            console.log('Hello World..');
+        }
+        //invoke func
+        Message();
+        function Greet(name) {
+            console.log("Hello " + name)
+        }
+        Greet('Sachin');
+        Greet('Rahul');
+        Greet();
+        //passing default values to function parameters
+        function Add(a, b = 10) {
+            let c = a + b;
+            console.log("Add: "+c)
+        }
+        Add(12, 23);
+        Add(12);
+       
+    </script>
+</head>
+<body>
+
+</body>
+</html>

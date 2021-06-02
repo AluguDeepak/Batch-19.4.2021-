@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Add() {
+            let no1 = document.getElementById("t1").value;
+            let no2 = document.getElementById("t2").value;
+            no1 = parseInt(no1);
+            no2 = Number(no2);
+            //parseFloat Converts string to float
+            let res = no1 + no2;
+            alert(res);
+		}
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>No1</td>
+            <td><input type="text" id="t1" /></td>
+        </tr>
+        <tr>
+            <td>No2</td>
+            <td><input type="text" id="t2" /></td>
+        </tr>
+        <tr>
+           
+            <td colspan="2"><input type="button" value="Add" onclick="Add()" style="width:100%;height:30px; background-color:blue"/></td>
+        </tr>
+    </table>
+</body>
+</html>
