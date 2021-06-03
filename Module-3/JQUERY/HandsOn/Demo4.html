@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .para
+        {
+            color:aqua;
+            font-family:'Times New Roman', Times, serif;
+            font-size:larger;
+        }
+    </style>
+    <script src="Scripts/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#b1').click(function () {
+                //alert('Hello JQuery Users')
+                $('p').addClass('para');
+			})
+		})
+    </script>
+</head>
+<body>
+    <p>JQuery Is a Javascript Lib </p>
+    <button id="b1">ClickMe</button>
+</body>
+</html>

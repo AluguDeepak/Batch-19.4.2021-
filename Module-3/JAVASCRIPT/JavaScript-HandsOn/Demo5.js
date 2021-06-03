@@ -8,7 +8,7 @@ console.log(a.length);
 //for (var i = 0; i < a.length; i++) {
 //    console.log(a[i])
 //}
-a.push(100);
+a.push(100); //add items to array
 for (let k of a) {
     console.log(k)
 }

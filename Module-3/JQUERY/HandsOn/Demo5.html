@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div {
+            border: 2px solid blue;
+            margin: 40px;
+            padding: 20px;
+            background-color: brown;
+            color: white;
+            border-radius: 5px;
+            width: auto;
+            height: 50px;
+        }
+    </style>
+    <script src="Scripts/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#b1').click(function () {
+                // $('#div1').slideUp(3000); //slide effect
+                $('#div1').fadeOut(5000);
+            })
+			$('#b2').click(function () {
+
+                $('#div1').fadeIn(5000);
+            })
+			$('#b3').click(function () {
+                // $('#div1').slideUp(3000); //slide effect
+                $('#div1').fadeToggle(5000);
+			})
+		})
+    </script>
+</head>
+<body>
+    <div id="div1">
+        I am going to hide!!!!
+    </div>
+    <button id="b1">FadeOut</button>
+    <button id="b2">FadeIn</button>
+    <button id="b3">Toggle</button>
+</body>
+</html>

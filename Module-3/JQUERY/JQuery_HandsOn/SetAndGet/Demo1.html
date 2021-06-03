@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>jQuery Set Text Contents of the Elements</title>
-    <script src="../Scripts/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
-$(document).ready(function(){
-    $(".btn-one").click(function(){
-        $("p").text("This is demo text.");
-    });
-    $(".btn-two").click(function(){
-        $("p:first").text("This is another demo text.");
-    });
-    $(".btn-three").click(function(){
-        $("p.empty").text("This is one more demo text.");
-    });
-});
+        $(document).ready(function () {
+            $(".btn-one").click(function () {
+                $("p").text("This is demo text.");
+            });
+            $(".btn-two").click(function () {
+                $("p:first").text("This is another demo text.");
+            });
+            $(".btn-three").click(function () {
+                $("p.empty").text("This is one more demo text.");
+            });
+        });
     </script>
 </head>
 <body>

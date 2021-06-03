@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<style>
+		table {
+			width: 200px;
+			height: 100px;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			$('#t1 tr').on('click',function () {
+				let v = $(this).text();
+				alert(v);
+			})
+
+
+		});
+	</script>
+</head>
+<body>
+	<table id="t1" border="1">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>100</td>
+			<td>Rohan</td>
+			<td>12</td>
+		</tr>
+		<tr>
+			<td>101</td>
+			<td>Karan</td>
+			<td>12</td>
+		</tr>
+		<tr>
+			<td>102</td>
+			<td>Jeson</td>
+			<td>12</td>
+		</tr>
+	</table>
+	<button id="b1">Click</button>
+</body>
+</html>

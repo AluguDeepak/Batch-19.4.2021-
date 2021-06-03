@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        table
+        {
+            border:1px solid orange;
+            text-align:center;
+            margin:20px;
+            padding:0px;
+            width:150px;
+            height:150px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(document).ready(function () {
+            var list = [
+                { sId: 1, Sname: 'Rohan', age: 12 },
+                { sId: 2, Sname: 'Karan',age: 12 },
+                { sId: 3, Sname: 'Ram',age: 12 },
+                { sId: 4, Sname: 'Krishna',age: 12 },
+				{ sId: 5, Sname: 'Bheem',age: 12 },
+            ]
+            $.each(list, function (i, obj) {
+                let row = '<tr><td>' + obj.sId + '</td><td>' + obj.Sname + '</td><td>' + obj.age + '</td></tr>';
+                $('#table1').append(row);
+			})
+		})
+    </script>
+</head>
+<body>
+    <table id="table1" border="1">
+        <thead>
+            <tr>
+                <th>ID</th><th>Name</th><th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>

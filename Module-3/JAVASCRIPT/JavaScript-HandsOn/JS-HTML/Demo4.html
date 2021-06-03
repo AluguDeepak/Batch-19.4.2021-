@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<style>
+		table {
+			border: 4px solid blue;
+			padding: 10px;
+		}
+
+		#s1 {
+			color: rebeccapurple;
+		}
+	</style>
+	<!--Add external Js files-->
+	<script src="myScript.js"></script>
+	<script>
+		function AddNumbers() {
+			let n1 = document.getElementById('txtNo1').value;
+			let n2 = document.getElementById('txtNo2').value;
+			let result = Add(n1, n2);
+			document.getElementById('s1').innerText = 'Addition: ' + result;
+		}
+		document.write('Square Value: ' + Square(3));
+	</script>
+</head>
+<body>
+	<div>
+		<table>
+			<tr>
+				<td>No1</td>
+				<td><input type="text" id="txtNo1" /></td>
+			</tr>
+			<tr>
+				<td>No2</td>
+				<td><input type="text" id="txtNo2" /></td>
+			</tr>
+			<tr>
+
+				<td colspan="2"><input type="button" value="Add" onclick="AddNumbers()" /></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<span id="s1"></span>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
