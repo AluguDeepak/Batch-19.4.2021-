@@ -17,5 +17,6 @@ namespace HandsOnEFCore_CodeFirst.Context
         }
         //Entity Set
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Project> Projects { get; set; }
     }
 }

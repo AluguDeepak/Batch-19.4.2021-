@@ -21,5 +21,9 @@ namespace HandsOnEFCore_CodeFirst.Entities
         [MaxLength(50)]
         [Column(TypeName ="Char")]
         public string Designation { get; set; }
+        [ForeignKey("Project")]
+        public int ProjectId { get; set; }
+
+        public Project Project { get; set; }
     }
 }
