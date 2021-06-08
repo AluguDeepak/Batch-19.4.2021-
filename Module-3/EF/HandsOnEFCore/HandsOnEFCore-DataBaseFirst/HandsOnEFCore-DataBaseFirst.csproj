@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>HandsOnEFCore_DataBaseFirst</RootNamespace>
+    <StartupObject>HandsOnEFCore_DataBaseFirst.StoredProcedures_Demo</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
