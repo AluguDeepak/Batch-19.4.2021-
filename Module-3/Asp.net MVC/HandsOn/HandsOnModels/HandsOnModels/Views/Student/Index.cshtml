@@ -10,13 +10,13 @@
 	<meta name="viewport" content="width=device-width" />
 	<title>Index</title>
 	<style>
-		table
+		table,#a1
 		{
 			width:500px;
 			height:100px;
 			text-align:center;
 			margin-left:300px;
-			margin-top:30px;
+			margin-top:10px;
 			border:1px solid blue;
 		
 		}
@@ -24,6 +24,7 @@
 </head>
 <body>
 	<div>
+		<a href=@Url.Action("Create") id="a1">Create New Student</a>
 		<table border="1">
 			<thead style="background-color:orange">
 				<tr>
@@ -31,6 +32,7 @@
 					<th>Name</th>
 					<th>DOB</th>
 					<th>Address</th>
+					<th></th>
 				</tr>
 			</thead>
 			<tbody style="background-color:blueviolet">
@@ -41,10 +43,14 @@
 					<td>@item.Sname</td>
 					<td>@item.DOB</td>
 					<td>@item.Adress</td>
+					<td><a href="Details?sid=@item.Sid">Details</a></td>
+					<td><a href=@Url.Action("Details","Student",new {sid=item.Sid })>Details</a></td>
 				</tr>
 				}
 			</tbody>
 		</table>
 	</div>
+	@*<a href="/Home/Index">Home</a>||
+	<a href=@Url.Action("Index","Home")>Home</a>*@
 </body>
 </html>

@@ -34,5 +34,21 @@ namespace HandsOnModels.Controllers
                 return View();
             }
         }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        //public IActionResult AddStudent(Student student)
+        //{
+        //    repository.Add(student);
+        //    return RedirectToAction("Index"); //Redirect to Index Action method
+        //}
+        [HttpPost]
+        public IActionResult Create(Student student)
+        {
+            repository.Add(student);
+            return RedirectToAction("Index"); //Redirect to Index Action method
+        }
     }
 }

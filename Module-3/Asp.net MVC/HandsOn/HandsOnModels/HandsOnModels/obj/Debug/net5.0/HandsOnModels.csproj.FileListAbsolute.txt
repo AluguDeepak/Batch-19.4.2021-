@@ -116,3 +116,4 @@ D:\Training(4.19.2021)\Modules\Module-3\Asp.net MVC\HandsOn\HandsOnModels\HandsO
 D:\Training(4.19.2021)\Modules\Module-3\Asp.net MVC\HandsOn\HandsOnModels\HandsOnModels\obj\Debug\net5.0\HandsOnModels.genruntimeconfig.cache
 D:\Training(4.19.2021)\Modules\Module-3\Asp.net MVC\HandsOn\HandsOnModels\HandsOnModels\obj\Debug\net5.0\Razor\Views\Student\Details.cshtml.g.cs
 D:\Training(4.19.2021)\Modules\Module-3\Asp.net MVC\HandsOn\HandsOnModels\HandsOnModels\obj\Debug\net5.0\Razor\Views\Student\Index.cshtml.g.cs
+D:\Training(4.19.2021)\Modules\Module-3\Asp.net MVC\HandsOn\HandsOnModels\HandsOnModels\obj\Debug\net5.0\Razor\Views\Student\Create.cshtml.g.cs
