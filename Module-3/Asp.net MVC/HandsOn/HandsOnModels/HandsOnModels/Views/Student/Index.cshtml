@@ -1,0 +1,50 @@
+﻿@model List<Student>
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<style>
+		table
+		{
+			width:500px;
+			height:100px;
+			text-align:center;
+			margin-left:300px;
+			margin-top:30px;
+			border:1px solid blue;
+		
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<table border="1">
+			<thead style="background-color:orange">
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>DOB</th>
+					<th>Address</th>
+				</tr>
+			</thead>
+			<tbody style="background-color:blueviolet">
+				@foreach (var item in Model)
+				{
+				<tr>
+					<td>@item.Sid</td>
+					<td>@item.Sname</td>
+					<td>@item.DOB</td>
+					<td>@item.Adress</td>
+				</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
