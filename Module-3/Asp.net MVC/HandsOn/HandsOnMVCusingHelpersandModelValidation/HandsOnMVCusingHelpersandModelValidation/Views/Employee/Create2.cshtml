@@ -7,17 +7,27 @@
 	table {
 		text-align: center;
 	}
+	span
+	{
+		color:red;
+	}
 </style>
 <h1>Create</h1>
-<form asp-action="Index" asp-controller="Home">
+<form asp-action="Create2" asp-controller="Employee">
 	<table class="table table-responsive-md">
 		<tr>
 			<td>Id</td>
-			<td><input type="text" asp-for="Eid" /></td>
+			<td>
+				<input type="text" asp-for="Eid" />
+				<span asp-validation-for="Eid"></span>
+			</td>
 		</tr>
 		<tr>
 			<td>Name</td>
-			<td><input asp-for="Ename" /></td>
+			<td>
+				<input asp-for="Ename" />
+				<span asp-validation-for="Ename"></span>
+			</td>
 		</tr>
 		<tr>
 			<td>Gender</td>
@@ -28,7 +38,18 @@
 		</tr>
 		<tr>
 			<td>JoinDate</td>
-			<td><input type="date" asp-for="JoinDate" /></td>
+			<td>
+				<input type="date" asp-for="JoinDate" />
+
+			</td>
+		</tr>
+		<tr>
+			<td>Age</td>
+			<td>
+				<input type="number" asp-for="Age" />
+				<span asp-validation-for="Age"></span>
+
+			</td>
 		</tr>
 		<tr>
 			<td>Designation</td>
@@ -40,19 +61,35 @@
 		</tr>
 		<tr>
 			<td>Email</td>
-			<td><input type="email" asp-for="Email" /></td>
+			<td>
+				<input type="email" asp-for="Email" />
+				<span asp-validation-for="Email"></span>
+			</td>
 		</tr>
 		<tr>
 			<td>Mobile</td>
-			<td><input type="number" asp-for="Mobile" /></td>
+			<td>
+				<input type="text" asp-for="Mobile" />
+				<span asp-validation-for="Mobile"></span>
+			</td>
 		</tr>
 		<tr>
 			<td>Username</td>
 			<td><input type="text" asp-for="Username" /></td>
 		</tr>
 		<tr>
-			<td>Mobile</td>
-			<td><input type="password" asp-for="Password" /></td>
+			<td>Password</td>
+			<td>
+				<input type="password" asp-for="Password" />
+				<span asp-validation-for="Password"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>ConfirmPassword</td>
+			<td>
+				<input type="password" asp-for="ConfirmPassword" />
+				<span asp-validation-for="ConfirmPassword"></span>
+			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
@@ -65,4 +102,3 @@
 
 	</table>
 </form>
-}

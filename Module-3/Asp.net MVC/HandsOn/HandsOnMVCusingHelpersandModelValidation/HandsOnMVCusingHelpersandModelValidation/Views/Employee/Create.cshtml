@@ -11,27 +11,43 @@
 	}
 </style>
 <h1>Create</h1>
-@using(Html.BeginForm("Index","Home"))
+@using(Html.BeginForm("Create","Employee","POST"))
             {
-<table class="table table-responsive-md">
+<table class="table table-bordered">
 	<tr>
 		<td>Id</td>
-		<td>@Html.TextBox("Eid")</td>
+		<td>
+			@Html.TextBox("Eid")
+			@Html.ValidationMessage("Eid")
+		</td>
 	</tr>
 	<tr>
 		<td>Name</td>
-		<td>@Html.TextBox("EName")</td>
+		<td>
+			@Html.TextBox("Ename")
+			@Html.ValidationMessage("Ename")
+		</td>
 	</tr>
 	<tr>
 		<td>Gender</td>
 		<td>
-			Male @Html.RadioButton("Gender", false)
-			Female @Html.RadioButton("Gender", false)
+			Male @Html.RadioButton("Gender",false,"Male")
+			Female @Html.RadioButton("Gender",false,"Female")
 		</td>
 	</tr>
 	<tr>
 		<td>JoinDate</td>
-		<td>@Html.TextBox("JoinDate", null, new { type = "Date" })</td>
+		<td>
+			@Html.TextBox("JoinDate", null, new { type = "Date" })
+			@Html.ValidationMessage("JoinDate")
+		</td>
+	</tr>
+	<tr>
+		<td>Age</td>
+		<td>
+			@Html.TextBox("Age")
+			@Html.ValidationMessage("Age")
+		</td>
 	</tr>
 	<tr>
 		<td>Designation</td>
@@ -39,28 +55,47 @@
 	</tr>
 	<tr>
 		<td>Email</td>
-		<td>@Html.TextBox("Email")</td>
-	</tr>
-	<tr>
-		<td>Mobile</td>
-		<td>@Html.TextBox("Mobile", null, new { type = "Number" })</td>
-	</tr>
-	<tr>
-		<td>Username</td>
-		<td>@Html.TextBox("Uname")</td>
-	</tr>
-	<tr>
-		<td>Mobile</td>
-		<td>@Html.Password("Pwd")</td>
-	</tr>
-	<tr>
-		<td colspan="2">
-			@Html.CheckBox("IsChecked") Accept all terms and conditions.
-		</td>
-	</tr>
-	<tr>
-		<td colspan="2"><input type="submit" /></td>
-	</tr>
+		<td>
+			@Html.TextBox("Email")
+		@Html.ValidationMessage("Email")
+	</td>
+</tr>
+<tr>
+	<td>Mobile</td>
+	<td>
+		@Html.TextBox("Mobile", null, new { type = "Number" })
+	@Html.ValidationMessage("Mobile")
+</td>
+</tr>
+<tr>
+	<td>Username</td>
+	<td>
+		@Html.TextBox("Username")
+	@Html.ValidationMessage("Username")
+</td>
+</tr>
+<tr>
+	<td>Password</td>
+	<td>
+		@Html.Password("Password")
+	@Html.ValidationMessage("Password")
+</td>
+</tr>
+<tr>
+	<td>Confirm Password</td>
+	<td>
+		@Html.Password("ConfirmPassword")
+	@Html.ValidationMessage("ConfirmPassword")
+</td>
+</tr>
+<tr>
+	<td colspan="2">
+		@Html.CheckBox("IsChecked") Accept all terms and conditions.
+	</td>
+</tr>
+<tr>
+	<td colspan="2"><input type="submit" /></td>
+</tr>
 
 </table>
             }
