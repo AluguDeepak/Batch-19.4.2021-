@@ -1,0 +1,68 @@
+﻿@model Employee
+@{
+	ViewData["Title"] = "Create";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+	table {
+		text-align: center;
+	}
+</style>
+<h1>Create</h1>
+<form asp-action="Index" asp-controller="Home">
+	<table class="table table-responsive-md">
+		<tr>
+			<td>Id</td>
+			<td><input type="text" asp-for="Eid" /></td>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td><input asp-for="Ename" /></td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+				Male <input type="radio" asp-for="Gender" value="Male" />
+				Female <input type="radio" asp-for="Gender" value="Female" />
+			</td>
+		</tr>
+		<tr>
+			<td>JoinDate</td>
+			<td><input type="date" asp-for="JoinDate" /></td>
+		</tr>
+		<tr>
+			<td>Designation</td>
+			<td>
+				<select asp-for="Desig"
+						asp-items='new SelectList(new string[] { "Programmer", "TeamLeader", "ProjectLead" })'>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="email" asp-for="Email" /></td>
+		</tr>
+		<tr>
+			<td>Mobile</td>
+			<td><input type="number" asp-for="Mobile" /></td>
+		</tr>
+		<tr>
+			<td>Username</td>
+			<td><input type="text" asp-for="Username" /></td>
+		</tr>
+		<tr>
+			<td>Mobile</td>
+			<td><input type="password" asp-for="Password" /></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="checkbox" /> Accept all terms and conditions.
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" /></td>
+		</tr>
+
+	</table>
+</form>
+}

@@ -1,0 +1,66 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+	table
+	{
+		text-align:center;
+		
+	}
+</style>
+<h1>Create</h1>
+@using(Html.BeginForm("Index","Home"))
+            {
+<table class="table table-responsive-md">
+	<tr>
+		<td>Id</td>
+		<td>@Html.TextBox("Eid")</td>
+	</tr>
+	<tr>
+		<td>Name</td>
+		<td>@Html.TextBox("EName")</td>
+	</tr>
+	<tr>
+		<td>Gender</td>
+		<td>
+			Male @Html.RadioButton("Gender", false)
+			Female @Html.RadioButton("Gender", false)
+		</td>
+	</tr>
+	<tr>
+		<td>JoinDate</td>
+		<td>@Html.TextBox("JoinDate", null, new { type = "Date" })</td>
+	</tr>
+	<tr>
+		<td>Designation</td>
+		<td>@Html.DropDownList("Desig", new SelectList(new string[] { "Programmer", "TeamLeader", "ProjectLead" }))</td>
+	</tr>
+	<tr>
+		<td>Email</td>
+		<td>@Html.TextBox("Email")</td>
+	</tr>
+	<tr>
+		<td>Mobile</td>
+		<td>@Html.TextBox("Mobile", null, new { type = "Number" })</td>
+	</tr>
+	<tr>
+		<td>Username</td>
+		<td>@Html.TextBox("Uname")</td>
+	</tr>
+	<tr>
+		<td>Mobile</td>
+		<td>@Html.Password("Pwd")</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			@Html.CheckBox("IsChecked") Accept all terms and conditions.
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="submit" /></td>
+	</tr>
+
+</table>
+            }

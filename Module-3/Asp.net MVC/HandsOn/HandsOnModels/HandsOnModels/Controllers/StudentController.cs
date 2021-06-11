@@ -35,7 +35,7 @@ namespace HandsOnModels.Controllers
             }
         }
         [HttpGet]
-        public IActionResult Create()
+        public IActionResult Create() //action use to get student detials from the user
         {
             return View();
         }
@@ -45,7 +45,7 @@ namespace HandsOnModels.Controllers
         //    return RedirectToAction("Index"); //Redirect to Index Action method
         //}
         [HttpPost]
-        public IActionResult Create(Student student)
+        public IActionResult Create(Student student) //add student details to list/table
         {
             repository.Add(student);
             return RedirectToAction("Index"); //Redirect to Index Action method
