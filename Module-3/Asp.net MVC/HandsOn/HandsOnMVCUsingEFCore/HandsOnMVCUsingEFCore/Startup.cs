@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using HandsOnMVCUsingEFCore.Repositories;
+
 namespace HandsOnMVCUsingEFCore
 {
     public class Startup
@@ -25,6 +27,9 @@ namespace HandsOnMVCUsingEFCore
         {
             services.AddControllersWithViews();
             services.AddDbContext<UserContext>(item=>item.UseSqlServer(Configuration.GetConnectionString("UserDBConnection")));
+           // services.AddSingleton<IUserRepository, UserRepository>();
+           // services.AddScoped<IUserRepository, UserRepository>();
+           services.AddTransient<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

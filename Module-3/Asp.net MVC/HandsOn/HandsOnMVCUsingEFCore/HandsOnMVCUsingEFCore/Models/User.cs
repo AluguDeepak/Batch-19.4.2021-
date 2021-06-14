@@ -23,6 +23,7 @@ namespace HandsOnMVCUsingEFCore.Models
         public string Mobile { get; set; }
         [Required(ErrorMessage ="Password is Required")]
         [StringLength(20)]
+        public string Country { get; set; }
         public string Password { get; set; }
     }
 }
