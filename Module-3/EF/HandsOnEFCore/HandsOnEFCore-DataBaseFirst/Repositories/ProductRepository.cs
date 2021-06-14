@@ -42,5 +42,11 @@ namespace HandsOnEFCore_DataBaseFirst.Repositories
             db.Products.Update(product);
             db.SaveChanges();
         }
+        public void UpdateProduct(int id, int price)
+        {
+           Product product= db.Products.Find(id);
+            product.Price = price;
+            db.SaveChanges();
+        }
     }
 }

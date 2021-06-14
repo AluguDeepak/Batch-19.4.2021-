@@ -10,10 +10,16 @@ namespace HandsOnMVCusingHelpersandModelValidation.Controllers
     public class EmployeeController : Controller
     {
         EMSContext db = null;
-        public EmployeeController()
+        //public EmployeeController()
+        //{
+        //    db = new EMSContext();
+        //}
+
+        public EmployeeController(EMSContext db)
         {
-            db = new EMSContext();
+            this.db = db;
         }
+
         public IActionResult Index()
         {
             List<Employee> employees = db.Employees.ToList();

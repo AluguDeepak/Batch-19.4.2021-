@@ -1,3 +1,4 @@
+using HandsOnMVCusingHelpersandModelValidation.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace HandsOnMVCusingHelpersandModelValidation
 {
@@ -23,6 +25,7 @@ namespace HandsOnMVCusingHelpersandModelValidation
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<EMSContext>(item => item.UseSqlServer(@"Data Source = SANTU\MSSQLSERVER2019; Initial Catalog = EMSDB1; User ID = sa; Password = pass@word1"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
