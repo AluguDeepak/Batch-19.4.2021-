@@ -22,5 +22,21 @@ namespace MyFirstAPI.Controllers
             string msg = "Hi," + name;
             return Ok(msg);
         }
+        [HttpPost]
+        public IActionResult POST(object item)
+        {
+            return Ok("Item Added");
+        }
+        [HttpPut]
+        public IActionResult PUT(object item)
+        {
+            return Ok("Item Updated");
+        }
+        [HttpDelete]
+        [Route("Delete/{id}")]
+        public IActionResult Delete(int id)
+        {
+            return Ok("Delete Item");
+        }
     }
 }
