@@ -1,0 +1,34 @@
+API
+===
+Create a Entities
+Actor(ActorId,ActorName)
+Movie(MovidId,MovieName,
+ReleaseYear,Lang,ActorId,SubActors,Director)
+Create an API to perform following actions on  Movie Entity.
+0.AddActor()
+1.AddMovie()
+2.GetMoviesByYear()
+3.GetMoviesByHero()
+4.GetMobiesByLang()
+5.GetMoviesByDirector()
+6.DeleteMovieByName()
+7.UpdateMovieDetails like year and director by Movie Name
+8.GetMovieDetailsByName()
+Test All the actions using Swagger.
+Note:use Code First apporach in EF Core.
+
+MVC
+====
+Connect all the API action in MVC using Http client
+Use model validations in MVC
+
+1.ActorController
+2.MovieController
+
+Screens
+-----
+1.AddActor
+2.AddMobie
+3.MovieDetails
+4.GetMobies
+5.EditMovie
