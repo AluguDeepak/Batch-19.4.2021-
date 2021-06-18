@@ -1,4 +1,4 @@
-﻿
+﻿@model Product 
 @{
     ViewData["Title"] = "Index";
 }
@@ -13,14 +13,128 @@
                     console.log(response);
                     let row = '<tr><td>' + item.pid + '</td><td>' + item.pname + '</td><td>'
                         + item.price + '</td><td>'
-                        + item.stock + '</td></tr>';
+						+ item.stock + '</td></tr>'
+                       
                     $('#products').append(row);
                 });
+            },
+            error: function (xhr) {
+                alert('Error Occured')
 			}
+		})
+		$("#btnAdd").click(function () {
+			// let pid = $("#Pid").val()
+			let pname = $("#Pname").val()
+			let price = Number($("#Price").val())
+			let stock = Number($("#Stock").val())
+			if (pname == "") {
+				$('#s1').text("Pls Enter Name");
+				event.preventDefault();
+			}
+			else {
+				$.ajax({
+					type: "POST",
+					url: "http://localhost:15299/api/Product/Add",
+					data: JSON.stringify({ "Pname": pname, "Price": price, "Stock": stock }),
+					contentType: 'application/json',
+					success: function () {
+						location.href = "Product/GetAll"
+					},
+					error: function (xhr) {
+						alert('Error Occured')
+					}
+				})
+			}
+		})
+		$('#btnsrch').click(function () {
+			let pid = $('#Pid').val();
+			$.ajax({
+				type: "GET",
+				url: "http://localhost:15299/api/Product/GetById/" + pid,
+				contentType: 'application/json',
+				success: function (item) {
+					$('#Pname').val(item.pname);
+					$('#Price').val(item.price);
+					$('#Stock').val(item.stock);
+				},
+				error: function (xhr) {
+					alert('Error Occured')
+				}
+			})
+		});
+		$('#btndelete').click(function () {
+			let pid = $('#Pid').val();
+			$.ajax({
+				type: "Delete",
+				url: "http://localhost:15299/api/Product/Delete/" + pid,
+				contentType: 'application/json',
+				success: function (item) {
+					location.reload();// reload the page.
+				},
+				error: function (xhr) {
+					alert('Error Occured')
+				}
+			})
+		});
+		$("#btnupdate").click(function () {
+			let pid = $("#Pid").val()
+			let pname = $("#Pname").val()
+			let price = Number($("#Price").val())
+			let stock = Number($("#Stock").val())
+			
+				$.ajax({
+					type: "PUT",
+					url: "http://localhost:15299/api/Product/Edit",
+					data: JSON.stringify({ "Pid": pid,"Pname": pname, "Price": price, "Stock": stock }),
+					contentType: 'application/json',
+					success: function () {
+						location.reload();
+					},
+					error: function (xhr) {
+						alert('Error Occured')
+					}
+				})
+			
 		})
 	})
 </script>
 <h1>Index</h1>
+@*<a asp-action="Create">Create New</a>*@
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<form>
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<label asp-for="Pid" class="control-label"></label>
+					<input asp-for="Pid" class="form-control" />
+					<span id="s1" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Pname" class="control-label"></label>
+					<input asp-for="Pname" class="form-control" />
+					<span id="s1" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Price" class="control-label"></label>
+					<input asp-for="Price" class="form-control" />
+					<span asp-validation-for="Price" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Stock" class="control-label"></label>
+					<input asp-for="Stock" class="form-control" />
+					<span asp-validation-for="Stock" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<input type="button" value="Create" class="btn btn-primary" id="btnAdd" />
+					<input type="button" value="Search" class="btn btn-primary" id="btnsrch" />
+					<input type="button" value="Delete" class="btn btn-primary" id="btndelete" />
+					<input type="button" value="Update" class="btn btn-primary" id="btnupdate" />
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <div class="container">
     <table class="table table-bordered" id="products">
         <thead>
@@ -29,6 +143,7 @@
                 <th>Name</th>
                 <th>Price</th>
                 <th>Stock</th>
+              
             </tr>
         </thead>
         <tbody>

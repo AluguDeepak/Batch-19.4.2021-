@@ -14,5 +14,9 @@ namespace HandsOnMVCConnectoAPIUsingJQuery.Controllers
         {
             return View();
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }

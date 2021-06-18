@@ -115,3 +115,4 @@ D:\Training(4.19.2021)\Modules\Module-3\WEB-API\HandsOnAPIUsingEF\HandsOnMVCConn
 D:\Training(4.19.2021)\Modules\Module-3\WEB-API\HandsOnAPIUsingEF\HandsOnMVCConnectoAPIUsingJQuery\obj\Debug\net5.0\HandsOnMVCConnectoAPIUsingJQuery.pdb
 D:\Training(4.19.2021)\Modules\Module-3\WEB-API\HandsOnAPIUsingEF\HandsOnMVCConnectoAPIUsingJQuery\obj\Debug\net5.0\HandsOnMVCConnectoAPIUsingJQuery.genruntimeconfig.cache
 D:\Training(4.19.2021)\Modules\Module-3\WEB-API\HandsOnAPIUsingEF\HandsOnMVCConnectoAPIUsingJQuery\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+D:\Training(4.19.2021)\Modules\Module-3\WEB-API\HandsOnAPIUsingEF\HandsOnMVCConnectoAPIUsingJQuery\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
