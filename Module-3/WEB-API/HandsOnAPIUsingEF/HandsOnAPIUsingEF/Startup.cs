@@ -30,12 +30,22 @@ namespace HandsOnAPIUsingEF
         {
 
             services.AddControllers();
+            services.AddCors(
+             c => {
+                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin()
+                 .AllowAnyMethod()
+                 .AllowAnyHeader()
+                 );
+             }
+             );
             services.AddDbContext<MyContext>(item => item.UseSqlServer(Configuration.GetConnectionString("MyDBConn")));
             services.AddScoped<IProductRepository, ProductRepository>();
+         
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HandsOnAPIUsingEF", Version = "v1" });
             });
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,9 +57,9 @@ namespace HandsOnAPIUsingEF
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HandsOnAPIUsingEF v1"));
             }
-
+           
             app.UseRouting();
-
+            app.UseCors("AllowOrigin");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

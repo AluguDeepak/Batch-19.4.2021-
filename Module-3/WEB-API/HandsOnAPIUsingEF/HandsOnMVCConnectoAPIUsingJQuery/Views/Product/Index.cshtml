@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:15299/api/Product/GetAll",
+            contentType: 'application/json',
+            success: function (response) {
+                $.each(response, function (i, item) {
+                    console.log(response);
+                    let row = '<tr><td>' + item.pid + '</td><td>' + item.pname + '</td><td>'
+                        + item.price + '</td><td>'
+                        + item.stock + '</td></tr>';
+                    $('#products').append(row);
+                });
+			}
+		})
+	})
+</script>
+<h1>Index</h1>
+<div class="container">
+    <table class="table table-bordered" id="products">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+

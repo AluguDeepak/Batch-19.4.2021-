@@ -6,10 +6,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using HandsOnAPIUsingEF.Entities;
 using HandsOnAPIUsingEF.Repositories;
+using Microsoft.AspNetCore.Cors;
+
 namespace HandsOnAPIUsingEF.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class ProductController : ControllerBase
     {
         private IProductRepository _repository = null;
