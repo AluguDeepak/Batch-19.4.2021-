@@ -1,0 +1,10 @@
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\bin\Debug\LMS.Database.dacpac
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\bin\Debug\LMS.Database.dll
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\bin\Debug\LMS.Database.pdb
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\obj\Debug\LMS.Database.sqlprojAssemblyReference.cache
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\obj\Debug\Model.xml
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\obj\Debug\refactor.xml
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\obj\Debug\postdeploy.sql
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\obj\Debug\predeploy.sql
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\obj\Debug\LMS.Database.dll
+D:\Training(4.19.2021)\Modules\LMS\LMS.Database\obj\Debug\LMS.Database.pdb
